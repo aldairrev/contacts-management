@@ -1,0 +1,11 @@
+app:
+  datasource:
+    main:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/contacts-management
+      password: 
+      username: 
+server:
+  error:
+    include-binding-errors: always
+    include-message: always
